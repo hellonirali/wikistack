@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -e html,js,css ./path/to/your/app.js"
+    "start": "nodemon -e html,js,css ./app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hellonirali/wikistack#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "express-static": "^1.2.5",
     "morgan": "^1.9.0",
     "nunjucks": "^3.0.1",
